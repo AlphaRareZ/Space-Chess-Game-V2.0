@@ -5,7 +5,7 @@ namespace SpaceChessGUI.Model.Wrapper
 {
     internal abstract class GameWrapper
     {
-        private const string DllString = @"..\..\x64\Debug\C++SpaceChessAlphaBeta.dll";
+        private const string DllString = @"..\..\x64\Release\C++SpaceChessAlphaBeta.dll";
 
         // DLL imports From C++
         [DllImport(DllString, CallingConvention = CallingConvention.Cdecl)]
@@ -22,8 +22,10 @@ namespace SpaceChessGUI.Model.Wrapper
 
         [DllImport(DllString, CallingConvention = CallingConvention.Cdecl)]
         public static extern int winnerType();
+        [DllImport(DllString, CallingConvention = CallingConvention.Cdecl)]
+        public static extern void resetGame();
 
-        // 
+        // Parse the IntPtr gameGrid into 2d character array
         public static char[,] GetGameGrid()
         {
             int size = getGridSize();

@@ -194,3 +194,19 @@ int Game::hasWinner()
     else
         return NONE; // no one wins ... the game is still going
 }
+
+void Game::resetGame()
+{
+    char gameGrid[5][5]{
+        '#', 'O', 'O', 'O', '#',
+        'X', '.', '.', '.', '.',
+        'X', '.', '.', '.', '.',
+        'X', '.', '.', '.', '.',
+        '#', '.', '.', '.', '#'
+    };
+    for (int i = 0;i < 5;i++) {
+        for (int j = 0;j < 5;j++) {
+            matrix[i][j] = gameGrid[i][j];
+        }
+    }
+}

@@ -9,7 +9,7 @@ namespace SpaceChessGUI
         bool hasPlayer = false;
         public static Bitmap computerShip = resources.ComputerShip;
         public static Bitmap playerShip = resources.PlayerShip;
-        public static Bitmap block = resources.Block;
+        public static Bitmap cornerBlock = resources.cornerBlock;
         public MyButton()
         {
                 Size = new Size(150,150);

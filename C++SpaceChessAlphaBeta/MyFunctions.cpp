@@ -29,4 +29,8 @@ ExportDll int winnerType()
 {
     return game.hasWinner();
 }
+ExportDll void resetGame()
+{
+    return game.resetGame();
+}
 }

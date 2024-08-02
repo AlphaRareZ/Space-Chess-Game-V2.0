@@ -8,3 +8,7 @@ C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\o
 C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.csproj.CoreCompileInputs.cache
 C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.exe
 C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.pdb
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\bin\Release\SpaceChessGUI.exe.manifest
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\bin\Release\SpaceChessGUI.application
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.exe.manifest
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.application

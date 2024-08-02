@@ -12,15 +12,20 @@ namespace SpaceChessGUI
 
         
         // sound functions
-        private static void PlayLoseSound()
+        private void PlayLoseSound()
         {
             SoundPlayer player = new SoundPlayer(resources.LoseSound);
             player.Play();
         }
 
-        private static void PlayMoveSound()
+        private void PlayMoveSound()
         {
-            SoundPlayer player = new SoundPlayer(resources.move);
+            SoundPlayer player = new SoundPlayer(resources.moveSound);
+            player.Play();
+        }
+        private void PlayNewGameSound()
+        {
+            SoundPlayer player = new SoundPlayer(resources.newGame);
             player.Play();
         }
         
@@ -57,20 +62,50 @@ namespace SpaceChessGUI
         
         private void CheckWinner()
         {
+            // 0 -> None, 1 -> Player, 2 -> Computer
             var winner = WinnerType();
             switch (winner)
             {
-                // player
+                
                 case (int)Winner.Player:
-                    MessageBox.Show(@"Congrats Baby U Won");
+                    GameEndDialogs((int)Winner.Player);
                     break;
                 case (int)Winner.Computer:
                     PlayLoseSound();
-                    MessageBox.Show(@"أنا الكبير يا بابا 😎☝");
+                    GameEndDialogs((int)Winner.Computer);
+                    break;
+                case (int)Winner.None:
                     break;
             }
         }
-        
+        private void GameEndDialogs(int winner)
+        {
+            // no winner
+            if(winner == 0) return;
+            // winner = 1 -> player
+            // winner = 2 -> computer
+            if(winner == 1)
+                MessageBox.Show(@"يابن اللعيبة كسبتني 😳", "Result");
+            else 
+                MessageBox.Show(@"أنا الكبير يا بابا 😎☝", "Result");
+
+            // check if player wants to play again
+            DialogResult res = MessageBox.Show(@"تلعب تاني ؟", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if(res == DialogResult.Yes)
+            {
+                _model.ResetGame();
+                // Play the new game sound to silence losing sound 😜
+                PlayNewGameSound();
+                // update view grid after resetting the game
+                UpdateViewGrid();
+            }
+            else if(res == DialogResult.No)
+            {
+                _myForm.Close();
+            }
+
+        }
         // View Functions
         public void UpdateViewGrid()
         {
@@ -93,7 +128,7 @@ namespace SpaceChessGUI
                     }
                     else if (currentCell == '#')
                     {
-                        _myForm.GetButtons()[i, j].setBackgroundImage(MyButton.block);
+                        _myForm.GetButtons()[i, j].setBackgroundImage(MyButton.cornerBlock);
                         _myForm.GetButtons()[i, j].setHasPlayer(false);
                     }
                     else

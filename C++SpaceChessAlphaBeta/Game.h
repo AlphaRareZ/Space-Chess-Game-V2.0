@@ -45,6 +45,7 @@ public:
     int isValidPlayerMovement(int x, int y);
     bool computerTurn();
     int hasWinner();
+    void resetGame();
 };
 
 #endif // GAME_H

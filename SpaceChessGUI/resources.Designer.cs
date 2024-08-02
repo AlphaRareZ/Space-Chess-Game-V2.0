@@ -63,9 +63,9 @@ namespace SpaceChessGUI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Block {
+        internal static System.Drawing.Bitmap ComputerShip {
             get {
-                object obj = ResourceManager.GetObject("Block", resourceCulture);
+                object obj = ResourceManager.GetObject("ComputerShip", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace SpaceChessGUI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ComputerShip {
+        internal static System.Drawing.Bitmap cornerBlock {
             get {
-                object obj = ResourceManager.GetObject("ComputerShip", resourceCulture);
+                object obj = ResourceManager.GetObject("cornerBlock", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -92,9 +92,18 @@ namespace SpaceChessGUI {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream move {
+        internal static System.IO.UnmanagedMemoryStream moveSound {
             get {
-                return ResourceManager.GetStream("move", resourceCulture);
+                return ResourceManager.GetStream("moveSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream newGame {
+            get {
+                return ResourceManager.GetStream("newGame", resourceCulture);
             }
         }
         

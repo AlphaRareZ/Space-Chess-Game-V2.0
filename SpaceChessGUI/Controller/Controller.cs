@@ -1,112 +1,108 @@
-﻿using SpaceChessGUI.Model;
-using System;
-using System.Media;
+﻿using System.Media;
 using System.Windows.Forms;
+using SpaceChessGUI.Model;
+using SpaceChessGUI.View;
 
 namespace SpaceChessGUI
 {
     public class Controller
     {
-        Form1 myForm;
-        GameModel model = new GameModel();
-       
-        public void setForm(Form1 form)
-        {
-            this.myForm = form;
-        }
-        
-        public bool playerMadeMove(int i,int j)
-        {
-            bool playerMoved = model.PlayerMadeMove(i, j);
-            if (playerMoved) playMoveSound();
-            model.MakeComputerMove();
-            updateViewGrid();
-            checkWinner();
-            return playerMoved;
-        }
-        private void playMoveSound()
-        {
-            SoundPlayer player = new SoundPlayer(resources.move);
-            player.Play();
-        }
-        private void checkWinner()
-        {
-            int winner = winnerType();
-            if (winner == (int)Winner.PLAYER) // player
-            {
-                MessageBox.Show("Congrats Baby U Won");
-            }
-            else if (winner == (int)Winner.COMPUTER)
-            {
-                playLoseSound();
-                MessageBox.Show("أنا الكبير يا بابا 😎☝");
-            }
-        }
+        private Form1 _myForm;
+        private readonly GameModel _model = new GameModel();
 
-        private void playLoseSound()
+        
+        // sound functions
+        private static void PlayLoseSound()
         {
             SoundPlayer player = new SoundPlayer(resources.LoseSound);
             player.Play();
         }
 
-        public int getGridSize()
+        private static void PlayMoveSound()
         {
-            return model.GetGridSize();
+            SoundPlayer player = new SoundPlayer(resources.move);
+            player.Play();
         }
-        public int winnerType()
+        
+        
+        // getters
+        public int GetGridSize()
         {
-            return model.WinnerType();
+            return _model.GetGridSize();
         }
 
-        // 
-        private void invertEnabledButtons()
+        private int WinnerType()
         {
-            foreach (MyButton myButton in myForm.GetButtons())
+            return _model.WinnerType();
+        }
+
+        
+        // setters
+        public void SetForm(Form1 form)
+        {
+            _myForm = form;
+        }
+        
+        
+        // InGame Functions
+        public bool PlayerMadeMove(int i, int j)
+        {
+            bool playerMoved = _model.PlayerMadeMove(i, j);
+            if (playerMoved) PlayMoveSound();
+            _model.MakeComputerMove();
+            UpdateViewGrid();
+            CheckWinner();
+            return playerMoved;
+        }
+        
+        private void CheckWinner()
+        {
+            var winner = WinnerType();
+            switch (winner)
             {
-                if (myButton.getHasPlayer())
-                {
-                    myButton.Enabled = !myButton.Enabled;
-                }
+                // player
+                case (int)Winner.Player:
+                    MessageBox.Show(@"Congrats Baby U Won");
+                    break;
+                case (int)Winner.Computer:
+                    PlayLoseSound();
+                    MessageBox.Show(@"أنا الكبير يا بابا 😎☝");
+                    break;
             }
         }
-        public void updateViewGrid()
+        
+        // View Functions
+        public void UpdateViewGrid()
         {
+            char[,] gameGrid = _model.GetGameGrid();
 
-            char[,] gameGrid = model.GetGameGrid();
-
-            for (int i = 0; i < model.GetGridSize(); i++)
+            for (int i = 0; i < _model.GetGridSize(); i++)
             {
-                for (int j = 0; j < model.GetGridSize(); j++)
+                for (int j = 0; j < _model.GetGridSize(); j++)
                 {
                     char currentCell = gameGrid[i, j];
                     if (currentCell == 'X')
                     {
-                        myForm.GetButtons()[i, j].setBackgroundImage(MyButton.playerShip);
-                        myForm.GetButtons()[i, j].setHasPlayer(true);
+                        _myForm.GetButtons()[i, j].setBackgroundImage(MyButton.playerShip);
+                        _myForm.GetButtons()[i, j].setHasPlayer(true);
                     }
                     else if (currentCell == 'O')
                     {
-                        myForm.GetButtons()[i, j].setBackgroundImage(MyButton.computerShip);
-                        myForm.GetButtons()[i, j].setHasPlayer(false);
-
+                        _myForm.GetButtons()[i, j].setBackgroundImage(MyButton.computerShip);
+                        _myForm.GetButtons()[i, j].setHasPlayer(false);
                     }
                     else if (currentCell == '#')
                     {
-                        myForm.GetButtons()[i, j].setBackgroundImage(MyButton.block);
-                        myForm.GetButtons()[i, j].setHasPlayer(false);
+                        _myForm.GetButtons()[i, j].setBackgroundImage(MyButton.block);
+                        _myForm.GetButtons()[i, j].setHasPlayer(false);
                     }
                     else
                     {
-                        myForm.GetButtons()[i, j].BackgroundImage = null;
-                        myForm.GetButtons()[i, j].setHasPlayer(false);
-
+                        _myForm.GetButtons()[i, j].BackgroundImage = null;
+                        _myForm.GetButtons()[i, j].setHasPlayer(false);
                     }
-
                 }
             }
-
         }
-
     }
 }
-

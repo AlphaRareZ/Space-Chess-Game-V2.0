@@ -33,14 +33,14 @@ private:
         '#', '.', '.', '.', '#'
     };
 
-    int isValidComputerMovement(int x, int y);
+    int isValidComputerMovement(int x, int y) const;
     int minimaxComputerTurn(int depth, int alpha, int beta);
     int minimaxPlayerTurn(int depth, int alpha, int beta);
     Move findBestMove();
 
 public:
-    const char* gameGrid();
-    int getGridSize();
+    const char* gameGrid() const;
+    static int getGridSize();
     bool playerMadeMove(int i, int j);
     int isValidPlayerMovement(int x, int y);
     bool computerTurn();

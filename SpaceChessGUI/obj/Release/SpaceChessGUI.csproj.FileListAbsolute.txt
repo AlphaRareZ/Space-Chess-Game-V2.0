@@ -1,0 +1,10 @@
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\bin\Release\SpaceChessGUI.exe.config
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\bin\Release\SpaceChessGUI.exe
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\bin\Release\SpaceChessGUI.pdb
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.csproj.AssemblyReference.cache
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.Properties.Resources.resources
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.resources.resources
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.csproj.GenerateResource.cache
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.csproj.CoreCompileInputs.cache
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.exe
+C:\Users\Muhammed Alaa Eddin\Documents\repos\Space-Chess-Game-V2\SpaceChessGUI\obj\Release\SpaceChessGUI.pdb

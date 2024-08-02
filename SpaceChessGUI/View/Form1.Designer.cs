@@ -1,10 +1,4 @@
-﻿using SpaceChessGUI;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Windows.Forms;
-
-namespace SpaceChessGUI
+﻿namespace SpaceChessGUI.View
 {
     partial class Form1
     {
@@ -39,7 +33,7 @@ namespace SpaceChessGUI
         {
             this.ClientSize = new System.Drawing.Size(750, 750);
 
-            int size = controller.getGridSize();
+            int size = _controller.GetGridSize();
             buttons = new MyButton[size, size];
 
             for (int i = 0; i < size; i++)

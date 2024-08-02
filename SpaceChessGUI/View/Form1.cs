@@ -1,24 +1,23 @@
-﻿using SpaceChessGUI;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
-namespace SpaceChessGUI
+namespace SpaceChessGUI.View
 {
     public partial class Form1 : Form
     {
-        Controller controller = new Controller();
+        private readonly Controller _controller = new Controller();
+
         public Form1()
         {
             InitializeComponent();
-            controller.setForm(this);
-            controller.updateViewGrid();
-
+            _controller.SetForm(this);
+            _controller.UpdateViewGrid();
         }
+
         private void MyButtonClick(object sender, EventArgs e)
         {
             MyButton x = (MyButton)sender;
-            bool playerMoved = controller.playerMadeMove(x.getRow(), x.getColumn());
+            _controller.PlayerMadeMove(x.getRow(), x.getColumn());
         }
-
     }
 }

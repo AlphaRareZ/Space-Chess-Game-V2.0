@@ -1,4 +1,5 @@
-﻿
+﻿using SpaceChessGUI.Model.Wrapper;
+
 namespace SpaceChessGUI.Model
 {
     internal class GameModel
@@ -20,7 +21,7 @@ namespace SpaceChessGUI.Model
 
         public char[,] GetGameGrid()
         {
-            return GameWrapper.getGameGrid();
+            return GameWrapper.GetGameGrid();
         }
 
         public int WinnerType()

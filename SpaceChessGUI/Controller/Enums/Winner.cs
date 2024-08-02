@@ -2,9 +2,8 @@
 {
     public enum Winner
     {
-        NONE = 0,
-        PLAYER = 1,
-        COMPUTER = 2
+        None = 0,
+        Player = 1,
+        Computer = 2
     }
 }
-

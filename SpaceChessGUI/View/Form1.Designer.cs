@@ -2,6 +2,8 @@
 {
     partial class Form1
     {
+        private MyButton[,] buttons;
+        public MyButton[,] GetButtons() { return buttons; }
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -27,14 +29,11 @@
         /// the contents of this method with the code editor.
         /// </summary>
 
-        MyButton[,] buttons;
-        public MyButton[,] GetButtons() { return buttons; }
+        
         private void InitializeComponent()
         {
             this.ClientSize = new System.Drawing.Size(750, 750);
         }
-
-
         #endregion
     }
 

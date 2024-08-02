@@ -28,6 +28,7 @@ namespace SpaceChessGUI.Model
         {
             return GameWrapper.winnerType();
         }
+
         public void ResetGame()
         {
             GameWrapper.resetGame();

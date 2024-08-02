@@ -171,7 +171,6 @@ bool Game::computerTurn()
     int row = myMove.row, col = myMove.column;
     if (myMove.row == -1 && myMove.column == -1)
     {
-        std::cout << "Player Wins, Congratulations You Made Optimal Moves" << std::endl;
         return false;
     }
     else
@@ -204,8 +203,10 @@ void Game::resetGame()
         'X', '.', '.', '.', '.',
         '#', '.', '.', '.', '#'
     };
-    for (int i = 0;i < 5;i++) {
-        for (int j = 0;j < 5;j++) {
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < 5; j++)
+        {
             matrix[i][j] = gameGrid[i][j];
         }
     }

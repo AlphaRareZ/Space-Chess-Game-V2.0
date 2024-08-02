@@ -4,7 +4,7 @@ using namespace std;
 #include <algorithm> // For std::swap
 #include <iostream>
 
-// Define the enums for the movement validity and game result
+#define int long long 
 // Define the enums for the movement validity and game result
 enum Movement {
     GOOD = 1,

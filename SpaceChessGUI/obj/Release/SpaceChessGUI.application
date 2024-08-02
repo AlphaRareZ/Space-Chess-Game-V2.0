@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SpaceChessGUI.exe.manifest" size="3488">
+    <dependentAssembly dependencyType="install" codebase="SpaceChessGUI.exe.manifest" size="3905">
       <assemblyIdentity name="SpaceChessGUI.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UzxuFz16vKUU3PBQT8jC3+CAWSs8tCFf7v2004KB2pg=</dsig:DigestValue>
+        <dsig:DigestValue>ADq0ZJFU6yMyrIKvsioo25uhSJ+Wo1Uue4if3Cw9k7I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

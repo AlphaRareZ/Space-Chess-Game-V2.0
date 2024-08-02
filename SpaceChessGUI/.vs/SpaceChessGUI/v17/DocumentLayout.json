@@ -3,34 +3,41 @@
   "WorkspaceRootPath": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\model\\wrapper\\gamewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|c:\\users\\muhammed alaa eddin\\documents\\repos\\space-chess-game-v2\\spacechessgui\\model\\wrapper\\gamewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|solutionrelative:model\\wrapper\\gamewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|c:\\users\\muhammed alaa eddin\\documents\\repos\\space-chess-game-v2\\spacechessgui\\controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13505FBC-4506-450C-8EF0-62C84556C8D4}|..\\C\u002B\u002BSpaceChessAlphaBeta\\C\u002B\u002BSpaceChessAlphaBeta.vcxproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\C\u002B\u002BSpaceChessAlphaBeta\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13505FBC-4506-450C-8EF0-62C84556C8D4}|..\\C\u002B\u002BSpaceChessAlphaBeta\\C\u002B\u002BSpaceChessAlphaBeta.vcxproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\C\u002B\u002BSpaceChessAlphaBeta\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|solutionrelative:controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SpaceChessGUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{13505FBC-4506-450C-8EF0-62C84556C8D4}|..\\C\u002B\u002BSpaceChessAlphaBeta\\C\u002B\u002BSpaceChessAlphaBeta.vcxproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\C\u002B\u002BSpaceChessAlphaBeta\\MyFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|solutionrelative:view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|c:\\users\\muhammed alaa eddin\\documents\\repos\\space-chess-game-v2\\spacechessgui\\view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|solutionrelative:view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13505FBC-4506-450C-8EF0-62C84556C8D4}|..\\C\u002B\u002BSpaceChessAlphaBeta\\C\u002B\u002BSpaceChessAlphaBeta.vcxproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\C\u002B\u002BSpaceChessAlphaBeta\\MyFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\view\\mybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|solutionrelative:view\\mybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|c:\\users\\muhammed alaa eddin\\documents\\repos\\space-chess-game-v2\\spacechessgui\\model\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|solutionrelative:model\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -52,9 +59,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Muhammed Alaa Eddin\\Desktop\\FinalProject\\C\u002B\u002BSpaceChessAlphaBeta\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAB47626-079F-4C04-8766-B85E753BC485}|SpaceChessGUI.csproj|c:\\users\\muhammed alaa eddin\\documents\\repos\\space-chess-game-v2\\spacechessgui\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,7 +68,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -72,90 +76,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\C\u002B\u002BSpaceChessAlphaBeta\\Game.h",
+              "RelativeDocumentMoniker": "..\\C\u002B\u002BSpaceChessAlphaBeta\\Game.h",
+              "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\C\u002B\u002BSpaceChessAlphaBeta\\Game.h",
+              "RelativeToolTip": "..\\C\u002B\u002BSpaceChessAlphaBeta\\Game.h",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAlwBQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T22:31:42.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\C\u002B\u002BSpaceChessAlphaBeta\\Game.cpp",
+              "RelativeDocumentMoniker": "..\\C\u002B\u002BSpaceChessAlphaBeta\\Game.cpp",
+              "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\C\u002B\u002BSpaceChessAlphaBeta\\Game.cpp",
+              "RelativeToolTip": "..\\C\u002B\u002BSpaceChessAlphaBeta\\Game.cpp",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAlwGkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-02T22:07:30.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameWrapper.cs",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Model\\Wrapper\\GameWrapper.cs",
               "RelativeDocumentMoniker": "Model\\Wrapper\\GameWrapper.cs",
               "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Model\\Wrapper\\GameWrapper.cs",
               "RelativeToolTip": "Model\\Wrapper\\GameWrapper.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA3wBsAAAA8AAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAApwCMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T00:30:56.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Controller.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Controller\\Controller.cs",
-              "RelativeDocumentMoniker": "Controller\\Controller.cs",
-              "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Controller\\Controller.cs",
-              "RelativeToolTip": "Controller\\Controller.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAH4AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T00:28:14.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MyButton.cs",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\View\\MyButton.cs",
               "RelativeDocumentMoniker": "View\\MyButton.cs",
               "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\View\\MyButton.cs",
               "RelativeToolTip": "View\\MyButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAkAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T00:33:45.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T00:16:33.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "resources.resx",
-              "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\resources.resx",
-              "RelativeDocumentMoniker": "resources.resx",
-              "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\resources.resx",
-              "RelativeToolTip": "resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-08-02T00:33:50.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\View\\Form1.cs",
               "RelativeDocumentMoniker": "View\\Form1.cs",
               "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\View\\Form1.cs",
               "RelativeToolTip": "View\\Form1.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAawBMAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T00:31:23.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\View\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "View\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\View\\Form1.Designer.cs",
               "RelativeToolTip": "View\\Form1.Designer.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAhwB8AAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T20:43:48.85Z",
               "EditorCaption": ""
@@ -168,26 +173,52 @@
               "RelativeDocumentMoniker": "..\\C\u002B\u002BSpaceChessAlphaBeta\\MyFunctions.cpp",
               "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\C\u002B\u002BSpaceChessAlphaBeta\\MyFunctions.cpp",
               "RelativeToolTip": "..\\C\u002B\u002BSpaceChessAlphaBeta\\MyFunctions.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAaAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-02T20:22:36.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SpaceChessGUI",
-              "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\SpaceChessGUI.csproj",
-              "RelativeDocumentMoniker": "SpaceChessGUI.csproj",
-              "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\SpaceChessGUI.csproj",
-              "RelativeToolTip": "SpaceChessGUI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-02T00:16:30.741Z",
+              "DocumentIndex": 4,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Controller\\Controller.cs",
+              "RelativeDocumentMoniker": "Controller\\Controller.cs",
+              "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Controller\\Controller.cs",
+              "RelativeToolTip": "Controller\\Controller.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAuwEQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T00:28:14.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "GameModel.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Model\\GameModel.cs",
+              "RelativeDocumentMoniker": "Model\\GameModel.cs",
+              "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Model\\GameModel.cs",
+              "RelativeToolTip": "Model\\GameModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAASwAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T22:08:18.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "resources.resx",
+              "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\resources.resx",
+              "RelativeDocumentMoniker": "resources.resx",
+              "ToolTip": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\resources.resx",
+              "RelativeToolTip": "resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-08-02T00:33:50.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\View\\Form1.cs",
               "RelativeDocumentMoniker": "View\\Form1.cs",
@@ -199,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MyFunctions.cpp",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Desktop\\FinalProject\\C\u002B\u002BSpaceChessAlphaBeta\\MyFunctions.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\FinalProject\\C\u002B\u002BSpaceChessAlphaBeta\\MyFunctions.cpp",
@@ -210,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Desktop\\FinalProject\\C\u002B\u002BSpaceChessAlphaBeta\\Game.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\FinalProject\\C\u002B\u002BSpaceChessAlphaBeta\\Game.cpp",
@@ -222,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Desktop\\FinalProject\\C\u002B\u002BSpaceChessAlphaBeta\\Game.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\FinalProject\\C\u002B\u002BSpaceChessAlphaBeta\\Game.h",
@@ -234,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Winner.cs",
               "DocumentMoniker": "C:\\Users\\Muhammed Alaa Eddin\\Documents\\repos\\Space-Chess-Game-V2\\SpaceChessGUI\\Controller\\Enums\\Winner.cs",
               "RelativeDocumentMoniker": "Controller\\Enums\\Winner.cs",

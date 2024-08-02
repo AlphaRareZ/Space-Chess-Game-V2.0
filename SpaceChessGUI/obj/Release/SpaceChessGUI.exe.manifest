@@ -49,10 +49,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SBZ9pNmLmSt1FqxMVbc0LSC3zgkIzLWi3EGp1FH3uSo=</dsig:DigestValue>
+        <dsig:DigestValue>kj9MBFAn8kK8XZHxiwA0KDDs7r3qdOOLyD/3IP6vHuI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="icons8-visual-studio-code-2019-100.ico" size="41662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DXP5MUL+7hsaL8ZpjP2GHiu3he4PKLm5CKSO011Px0k=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="SpaceChessGUI.exe.config" size="189">
     <hash>
       <dsig:Transforms>

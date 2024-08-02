@@ -23,6 +23,7 @@ namespace SpaceChessGUI.View
             MyButton x = (MyButton)sender;
             _controller.PlayerMadeMove(x.getRow(), x.getColumn());
         }
+
         private void InitializeCustomComponents()
         {
             int size = _controller.GetGridSize();
